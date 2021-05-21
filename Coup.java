@@ -1,13 +1,12 @@
 public class Coup{
-	private case CaseDepart;
-	private case CaseArrive;
+    
+    public Case getCaseDepart(){
+        return CaseDepart ;
+    }
 
-	public case getCaseDepart(){
-		return CaseDepart;
-	}
+    public Case getCaseArrivee(){
+        return CaseArrivee ;
+    }
 
-	public case getCaseArrive(){
-		return CaseArrive;
-	}
 
 }
